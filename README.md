@@ -62,6 +62,6 @@ moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at th
 
 # mark down image testing s
 
-![alt text](https://github.com/bazilsky/notes/blob/master/images/indirect.png)
+![alt text](images/indirect.png)
 
 # more testing to follow
