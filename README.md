@@ -64,4 +64,21 @@ moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at th
 
 ![alt text](images/indirect.png)
 
-# more testing to follow
+# vimrc for python indentation
+
+Copy of following code block into your vimrc file and you're good to go. 
+
+
+```sh
+syntax enable 
+set mouse=a
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+syntax on
+set number 
+filetype indent on
+set autoindent
+
+```
