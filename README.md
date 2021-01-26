@@ -15,7 +15,7 @@ ssh -A eeara@foe-linux-02.leeds.ac.uk
 
   >http://arc.leeds.ac.uk/
 
-# yum update:
+# yum update: s
 
 ```sh
 sudo yum update
