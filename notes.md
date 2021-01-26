@@ -38,11 +38,11 @@ $tar cf - myfiles | ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc0 \" cd /
 ```sh
 $cd /path/to/destination
 $ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc0 \" cd /path/to/source/directory && tar cf - myfiles \" " | tar xvf -
-```
-An example Transfer from monsoon to institution
 
->$ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc1 \" cd /home/d04/anran/cylc-run/u-bx512/share/data/History_Data && tar cf - *.pp \" " | tar xvf -
+#An example Transfer from monsoon to institution
 
+$ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc1 \" cd /home/d04/anran/cylc-run/u-bx512/share/data/History_Data && tar cf - *.pp \" " | tar xvf -
+```s
 
 # convert model output to pp file
 >/projects/um1/vn10.8/xc40/utilities/um-convpp ax337a.pm2013dec ax337a.pm2013dec.pp
