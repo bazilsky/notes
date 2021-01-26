@@ -24,16 +24,15 @@
 # Tar based method to copy from monsoon 
 
 ## Transfer *from* institution to MONSooN:
-cd /path/to/localfiles
+$cd /path/to/localfiles
 
-tar cf - myfiles | ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc0 \" cd /path/to/destination/directory && tar xvf - \" "
+$tar cf - myfiles | ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc0 \" cd /path/to/destination/directory && tar xvf - \" "
 
 /home/d04/anran/1850_emission_files/1850_greg
 
 ## Transfer *from* MONSooN to Institution:
-cd /path/to/destination
-
-ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc0 \" cd /path/to/source/directory && tar cf - myfiles \" " | tar xvf -
+$cd /path/to/destination
+$ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc0 \" cd /path/to/source/directory && tar cf - myfiles \" " | tar xvf -
 
 An example Transfer from monsoon to institution
 
