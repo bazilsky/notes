@@ -59,3 +59,7 @@ moo put bc047a.pm2014apr.pp :crum/u-ca123/apm.pp/bc047a.pm2014apr.pp
 
 moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at the end extracts all files to the current directory 
 ```
+
+# mark down image testing 
+
+![alt text](https://github.com/bazilsky/no_sulphur_new/blob/master/images/dir_effect_nosulphur.png)
