@@ -66,7 +66,7 @@ moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at th
 
 # vimrc for python indentation
 
-Copy of following code block into your vimrc file and you're good to go. 
+Copy of following code block into your vimrc file and you're good to go. The `set mouse =a` command is only for enabling mouse click on vim. You can disregard that if you want. 
 
 
 ```sh
