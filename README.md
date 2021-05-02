@@ -55,9 +55,9 @@ $ssh anran@lander.monsoon-metoffice.co.uk "ssh xcslc1 \" cd /home/d04/anran/cylc
 ```sh
 moo mkset -p --project-ukca --single-copy :/crum/u-ca123
 
-moo put bc047a.pm2014apr.pp :crum/u-ca123/apm.pp/bc047a.pm2014apr.pp
+moo put *.pp :crum/u-ca123/apm.pp/
 
-moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at the end extracts all files to the current directory 
+moo get :/crum/u-ca123/apm.pp/*.pp .      # the full stop at the end extracts all files to the current directory 
 ```
 
 # mark down image testing s
