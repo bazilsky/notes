@@ -84,7 +84,8 @@ set autoindent
 ```
 
 # reading netcdf files using python
-```sh
+```python
 from netCDF4 import Dataset
 check1 = Dataset(files[0])
 check2 = np.asarray(check1['model_data'])
+```
