@@ -1,13 +1,13 @@
 # Remote access notes:
 
   https://www.environment.leeds.ac.uk/wiki/view/IT/LinuxRemote
-  
+
 ```sh
 sudo openconnect -u eeara --juniper vpn.leeds.ac.uk
 ```
   * connect using x2go
 
-  * just connect via terminal 
+  * just connect via terminal
 ```sh
 ssh -A eeara@foe-linux-02.leeds.ac.uk
 ```
@@ -21,10 +21,10 @@ ssh -A eeara@foe-linux-02.leeds.ac.uk
 sudo yum update
 ```
 
-# printing remotely 
+# printing remotely
  > lp -d myprint-staff -o ColorModel=Color -o KMDuplex=2Sided -o copies=1 FILENAME.pdf
 
-# Tar based method to copy from monsoon 
+# Tar based method to copy from monsoon
 
 ## Transfer *from* institution to MONSooN:
 ```sh
@@ -57,8 +57,15 @@ moo mkset -p --project-ukca --single-copy :/crum/u-ca123
 
 moo put bc047a.pm2014apr.pp :crum/u-ca123/apm.pp/bc047a.pm2014apr.pp
 
-moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at the end extracts all files to the current directory 
+moo get moo:crum/u-bb283/apm.pp/bc047a.pm2014apr.pp .      # the full stop at the end extracts all files to the current directory
 ```
 
-# mark down image testing 
+# mark down image testing
 ![alt text](https://github.com/bazilsky/no_sulphur_new/blob/master/images/dir_effect_nosulphur.png)
+
+# reading netcdf files using python
+```python
+from netCDF4 import Dataset
+check1 = Dataset(files[0])
+check2 = np.asarray(check1['model_data'])
+```
