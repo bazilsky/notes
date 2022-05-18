@@ -89,3 +89,7 @@ from netCDF4 import Dataset
 check1 = Dataset(files[0])
 check2 = np.asarray(check1['model_data'])
 ```
+# generating an ssh key pair 
+```sh
+ssh-keygen -t rsa -b 4096 -C "ARCHER access"
+```
