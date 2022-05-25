@@ -92,7 +92,7 @@ check2 = np.asarray(check1['model_data'])
 # generating an ssh key pair 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "ARCHER access"
-``
+```
 
 #open textedit 
 
