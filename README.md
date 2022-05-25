@@ -94,7 +94,7 @@ check2 = np.asarray(check1['model_data'])
 ssh-keygen -t rsa -b 4096 -C "ARCHER access"
 ```
 
-#open textedit 
+# open textedit 
 
 ```sh 
 open -a TextEdit archer_rsa_jasmin.pub
