@@ -1,4 +1,4 @@
-# Remote access notes: 
+# Commands to remember 
 
   https://www.environment.leeds.ac.uk/wiki/view/IT/LinuxRemote
   
