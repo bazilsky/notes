@@ -99,3 +99,13 @@ ssh-keygen -t rsa -b 4096 -C "ARCHER access"
 ```sh 
 open -a TextEdit archer_rsa_jasmin.pub
 ````
+
+# create a virtual environment 
+
+```sh 
+conda create --name env_name python=3.9
+
+source activate env_name
+
+```
+
