@@ -69,3 +69,13 @@ from netCDF4 import Dataset
 check1 = Dataset(files[0])
 check2 = np.asarray(check1['model_data'])
 ```
+
+
+# create a virtual environment 
+
+```sh 
+conda create --name env_name python=3.9
+
+source activate env_name
+
+```
